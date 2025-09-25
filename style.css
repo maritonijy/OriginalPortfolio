@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #65303a;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #944657;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+section:nth-child(even) {
+  background-color: #fbe4e8;
+}
+
+section:nth-child(odd) {
+  background-color: #fff1f3;
+}
+
+h2 {
+  color: #65303a;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  width: 32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #65303a;
+  color: black;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.home-content {
+  text-align: left;
+  max-width: 700px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: beige;
+  background-color: black;
+  border: 2px solid hotpink;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: hotpink;
+  color: black;
+  transform: scale(1.05);
+}
+
+.social-icons {
+  margin-top: 2rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: hotpink;
+  color: white;
+  border: 2px solid beige;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: black;
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.home-para {
+  margin-left: 20px;
+}
+
+.maritoni {
+  color: hotpink;
+}
