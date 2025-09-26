@@ -1,4 +1,4 @@
-# My Portfolio Website
+# My Portfolio Webpage (in progress)
 
 A personal portfolio website currently in progress.  
 For now, it showcases my information and contact details.  
